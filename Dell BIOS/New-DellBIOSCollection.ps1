@@ -1,4 +1,6 @@
-﻿Import-Module "$($env:SMS_ADMIN_UI_PATH)\..\ConfigurationManager.psd1"
+﻿#Script assumes that New-ModelCollections.ps1 has been used to create device collections based on model name
+
+Import-Module "$($env:SMS_ADMIN_UI_PATH)\..\ConfigurationManager.psd1"
 
 $SiteCode = "SMS"
 $IncludeCollection = "Clients Eligible for BIOS Updates"
