@@ -13,13 +13,13 @@ Set-Location -Path "$($SiteCode):"
 New-CMSiteSystemServer -SiteCode $SiteCode -SiteSystemServerName $SiteSystemServerName -Verbose
 
 $Parameters = @{
-	WsusIisPort				= '8530';
-	WsusIisSslPort			= '8531';
-	SiteSystemServerName	= $SiteSystemServerName;
-	SiteCode				= $SiteCode;
-	ClientConnectionType	= 'Intranet';
-	WsusSsl					= $true;
-	Verbose					= $true
+    WsusIisPort          = '8530';
+    WsusIisSslPort       = '8531';
+    SiteSystemServerName = $SiteSystemServerName;
+    SiteCode             = $SiteCode;
+    ClientConnectionType = 'Intranet';
+    WsusSsl              = $true;
+    Verbose              = $true
 }
 
 Add-CMSoftwareUpdatePoint @Parameters
