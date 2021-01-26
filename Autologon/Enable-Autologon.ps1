@@ -8,11 +8,12 @@
         It requires Autologon.exe within the same content location as this script.
     .Notes
         NAME: Enable-Autologon.ps1
-        AUTHOR: Anthony Fontanez (ajfrcc@gmail.com)
-        VERSION: 1.0
-        LASTEDIT: 2018-01-07
+        AUTHOR: Anthony Fontanez (ajf@anthonyfontanez.com)
+        VERSION: 1.1
+        LASTEDIT: 2021-01-27
         CHANGELOG:
             1.0 (2018-01-07) Initial script creation
+            1.1 (2021-01-27) Update email address
 #>
 
 $TSEnv = New-Object -COMObject Microsoft.SMS.TSEnvironment
