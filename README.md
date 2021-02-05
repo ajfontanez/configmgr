@@ -1,2 +1,2 @@
-# configmgr
-System Center Configuration Manager
+# ConfigMgr
+Useful ConfigMgr scripts & utilities
