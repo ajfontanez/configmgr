@@ -6,8 +6,7 @@ $SiteCode = "SMS"
 $IncludeCollection = "Clients Eligible for BIOS Updates"
 $Models = @(
 	"OptiPlex 9010",
-	"OptiPlex 9020",
-	"OptiPlex 7040"
+	"OptiPlex 9020"
 )
 
 Set-Location "$($SiteCode):"
